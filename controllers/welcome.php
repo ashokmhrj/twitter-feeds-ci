@@ -26,6 +26,7 @@ class Welcome extends CI_Controller {
 		$this->load->library('twitter');
 
 		$this->twitter->hashFeeds('#hashtag');
+		
 		$this->twitter->tweets('handler-name-without@');
 
 	}

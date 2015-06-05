@@ -15,8 +15,8 @@ paste the above keys in  library/twitter.php class constructor
 use the following code in your controller
 
 $this->load->library('twitter');
-// for hastag feeds
+## for hastag feeds
 $this->twitter->hashFeeds('#your-hashtag');
 
-// for handlers feeds
+## for handlers feeds
 $this->twitter->hashFeeds('your-handler-name-wihout @');

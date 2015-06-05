@@ -52,6 +52,7 @@ class Twitter {
 		echo "</ul>";
 	}
 
+	
 	public function tweets($handler = NULL , $num = 5) {
 		// Twitter REST API v1.1 (https://dev.twitter.com/docs/api/1.1) 
 		$url = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
