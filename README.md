@@ -23,4 +23,4 @@ $this->load->library('twitter');
 $this->twitter->hashFeeds('#your-hashtag');
 
 ## for handlers feeds
-$this->twitter->hashFeeds('your-handler-name-wihout @');
+$this->twitter->tweets('your-handler-name-without @');
