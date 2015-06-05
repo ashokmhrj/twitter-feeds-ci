@@ -24,7 +24,10 @@ class Welcome extends CI_Controller {
 
 	public function getTweets() {
 		$this->load->library('twitter');
-		$this->twitter->feeds('#photo');
+
+		$this->twitter->hashFeeds('#hashtag');
+		$this->twitter->tweets('handler-name-without@');
+
 	}
 
 }

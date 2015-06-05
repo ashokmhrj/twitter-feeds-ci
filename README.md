@@ -15,4 +15,8 @@ then you can
  in your controller
 
 $this->load->library('twitter');
-$this->twitter->feeds('#your-hashtag');
+// for hastag feeds
+$this->twitter->hashFeeds('#your-hashtag');
+
+// for handlers feeds
+$this->twitter->hashFeeds('your-handler-name-wihout @');
