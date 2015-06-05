@@ -58,7 +58,7 @@ class Twitter {
 		$url = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
 		$this->conn = new TwitterOAuth( $this->instance['consumer_key'], $this->instance['consumer_secret'], $this->instance['oauth_token'], $this->instance['oauth_token_secret'] );
 
-		$query = array(	'q' => $handler,
+		$query = array(	'screen_name' => $handler,
 						// 'result_type' => 'recent',
 						'count' => $num,
 					);
