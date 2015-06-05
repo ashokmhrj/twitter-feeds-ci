@@ -1,12 +1,16 @@
 # twitter-feeds-ci
-fetching twitter hastag feeds in codeigniter
+fetching twitter hastag feeds and tweets in codeigniter
 
 
 # requirement
 twitter consumer key
+
 twitter consumer secret
+
 twitter oauth token
+
 twitter oauth token secret
+
 
 
 paste the above keys in  library/twitter.php class constructor
