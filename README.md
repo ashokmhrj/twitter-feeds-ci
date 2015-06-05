@@ -11,8 +11,8 @@ twitter oauth token secret
 
 paste the above keys in  library/twitter.php class constructor
 
-then you can 
- in your controller
+# controller
+use the following code in your controller
 
 $this->load->library('twitter');
 // for hastag feeds
